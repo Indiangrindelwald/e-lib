@@ -39,12 +39,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/../public/assets/navLogo.png"
-                alt="/"
-                width="60"
-                height="60"
-              />
+              <ImBooks size={70} />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer "
