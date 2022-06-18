@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-30 shadow-xl z-[100]">
+    <div className="fixed w-full h-30 shadow-xl z-[100] bg-[#E0E2EB]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
       <ImBooks size={70} />
         <div>
